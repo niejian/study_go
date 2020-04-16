@@ -84,7 +84,7 @@ func main() {
 	var h = make([]int, len(g), len(g))
 	copy(h, g)
 	ls := sort.IntSlice{
-		3, 7, 8, 4, 4, 13, 57, 12
+		3, 7, 8, 4, 4, 13, 57, 12,
 	}
 
 	fmt.Println(ls)
