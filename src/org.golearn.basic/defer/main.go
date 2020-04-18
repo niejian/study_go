@@ -27,7 +27,7 @@ func main() {
 	defer cacl("AA", x, cacl("A", x, y)) // 后执行：x = 10
 	// 重新赋值
 	x = 10
-	defer cacl("BB", x, cacl("B", x , y)) // 先执行； x = 10， y = 20
+	defer cacl("BB", x, cacl("B", x, y)) // 先执行； x = 10， y = 20
 	// B 10 20
 	// BB 10 30
 	y = 20
@@ -36,7 +36,7 @@ func main() {
 /*
 defer 经典案例
 */
-func f1() int{
+func f1() int {
 	x := 5
 	defer func() {
 		x++
@@ -57,19 +57,20 @@ func f3() (y int) {
 	defer func() {
 		x++
 	}()
+
 	return x
 }
 func f4() (x int) {
 	defer func(x int) {
 		x++
 	}(x)
+	fmt.Println("1234")
 	return 5
 }
 
-func cacl(index string, a, b int) int{
+func cacl(index string, a, b int) int {
 	ret := a + b
 	fmt.Println(index, a, b, ret)
 	return ret
 
 }
-
