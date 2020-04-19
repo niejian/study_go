@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 // 结构体的继承
-
 type Animal struct {
 	name string
 }
