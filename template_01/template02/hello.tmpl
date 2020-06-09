@@ -17,9 +17,14 @@
 <p>性别：{{.m.Gender}}</p>
 <p>接收数组</p>
 <p>爱好</p>
-爱好数量：{{len .hobbies}}<br/>
-前三个爱好：{{index .hobbies 0 1 2}}<br/>
-{{range .hobbies}}
+爱好数量：{{len .hobbies}}，
+所有爱好：{{range .hobbies}}
+{{end}}
+
+<br/>
+第三个爱好：{{index .hobbies 2 }}<br/>
+<h1>嵌套模板</h1>
+{{template "ul.tmpl"}}
 
 </body>
 </html>
