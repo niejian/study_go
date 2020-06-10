@@ -23,3 +23,15 @@ export PATH=$PATH:$GOPATH/bin
     └── github.com # 组织，可以是具体公司的名称
         └── gocode # 真正的项目名
 ```
+## 注意点
+### 公有、私有
+Go 语言也有 Public 和 Private 的概念，粒度是包。如果 `类型/接口/方法/函数/字段` 的首字母大写，则是 Public 的，对其他 package 可见，
+如果首字母小写，则是 Private 的，对其他 package 不可见
+### package
+一个文件夹可以作为 package，同一个 package 内部变量、类型、方法等定义可以相互看到。
+### 同一package的项目调用
+同级目录相互调用 `go run calc.go main.go`
+### modules
+package之间的相互调用
+
+通过 `import` 关键字引入
