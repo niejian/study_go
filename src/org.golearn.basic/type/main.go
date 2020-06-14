@@ -15,6 +15,8 @@ func main()  {
 	var b NewInt
 	fmt.Printf("类型定义 a %T \n", a) // 类型定义 a main.myInt.表示的是main包下的myInt类型
 	fmt.Printf("类型别名  %T \n", b) // 类型别名  int
+	var str string = "134"
+	fmt.Printf(str)
 
 	
 
