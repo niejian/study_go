@@ -1,0 +1,10 @@
+logPaths:
+  - /Users/a/logs/demo-muti-registry-producer/
+emails:
+  - niejian@bluemoon.com.cn
+  - 393357255@qq.com
+userIds:
+  - 80468295
+errs:
+  - ArithmeticException
+enable: true
