@@ -1,6 +1,7 @@
 package util
 
 import (
+	"fmt"
 	"fs-listener/conf"
 	"log"
 	"testing"
@@ -34,14 +35,15 @@ func TestGetFsChange(t *testing.T) {
 			userIds = []string{"80468295"}
 		}
 
-		//fmt.Println(logConf)
+		fmt.Println(paths)
+		done := make(chan bool)
 
 		for _, path := range paths {
 			// 获取配置信息
-			getFileList(path)
-			GetFsChange(path, errs, emails, userIds)
+			go GetFsChange(path, errs, emails, userIds)
 
 		}
+		<-done
 	})
 }
 

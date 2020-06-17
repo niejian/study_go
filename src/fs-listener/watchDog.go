@@ -3,10 +3,15 @@ package main
 import (
 	"fs-listener/conf"
 	"fs-listener/util"
+	"log"
 )
 
 func main() {
 	logConf := conf.GetLogConf()
+	if !logConf.Enable {
+		log.Printf("已关闭告警")
+		return
+	}
 	paths := logConf.LogPaths
 	if nil == paths || len(paths) == 0 {
 		panic("请选择监控的日志路径")

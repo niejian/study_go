@@ -1,5 +1,6 @@
 logPaths:
-  - /Users/a/logs/demo-muti-registry-producer/
+  - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+  - /Users/a/logs/arthas-cache/
 emails:
   - niejian@bluemoon.com.cn
   - 393357255@qq.com

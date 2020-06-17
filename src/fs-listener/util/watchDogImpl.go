@@ -11,33 +11,12 @@ import (
 	"os/exec"
 	"regexp"
 	"strings"
+	"time"
 )
 
 const (
 	WECHAT_ALARM_URL = "http://wechat.bluemoon.com.cn/wxplatform/qyweixin/msg-push/push-msg"
 )
-
-func convertWechatMsg()  *conf.Msg{
-	msgText := &conf.MsgText{
-		Content: "",
-	}
-
-	msgData := &conf.MsgData{
-		Touser:  "",
-		MsgType: "text",
-		Agentid: 1000079,
-		Text:    msgText,
-	}
-
-	msg := &conf.Msg{
-		CorpId:  "wx36ef368cf28caea0",
-		Agentid: 1000079,
-		Data:    msgData,
-	}
-
-	return msg
-
-}
 
 // 发送告警
 func sendWxchatAlarm(userIds, alarmMsg string)  {
@@ -91,7 +70,7 @@ func getFileList(path string) []string{
 
 // 监听文件变化
 func GetFsChange(filePath string, errs, emails, userIds []string)  {
-
+	log.Printf("filePath: %v \n", filePath)
 	watcher, err := fsnotify.NewWatcher()
 	if err != nil {
 		log.Fatal(err)
@@ -108,6 +87,8 @@ func GetFsChange(filePath string, errs, emails, userIds []string)  {
 	}()
 
 	done := make(chan bool)
+	//quit := make(chan bool)
+
 	err = watcher.Add(filePath)
 
 	if err != nil {
@@ -119,14 +100,14 @@ func GetFsChange(filePath string, errs, emails, userIds []string)  {
 		for {
 			select {
 			case event := <-watcher.Events:
-				log.Printf("event: %v\n", event)
+				//log.Printf("event: %v\n", event)
 
 				if event.Op&fsnotify.Create == fsnotify.Create {
 					log.Println("创建文件 : ", event.Name);
 				}
 				if event.Op&fsnotify.Write == fsnotify.Write {
 					log.Println("写入文件 : ", event.Name);
-					go readChangeContent(event.Name, errs, emails, userIds)
+					readChangeContent(event.Name, errs, emails, userIds)
 				}
 				if event.Op&fsnotify.Remove == fsnotify.Remove {
 					log.Println("删除文件 : ", event.Name);
@@ -147,9 +128,6 @@ func GetFsChange(filePath string, errs, emails, userIds []string)  {
 	select {
 
 	}
-
-
-
 }
 
 // 判断字符串是否是日期时间戳开头
@@ -199,6 +177,11 @@ func readChangeContent(file string, errs ,emails, userIds []string) string{
 		panic(err)
 	}
 
+	errContentChan := make(chan string)
+	//writing := make(chan bool)
+	quit := make(chan bool)
+	//doMsg := make(chan bool)
+	//custErr := ""
 	go func() {
 		reader := bufio.NewReader(stdoutPipe)
 		for {
@@ -216,25 +199,91 @@ func readChangeContent(file string, errs ,emails, userIds []string) string{
 			}
 
 			//fmt.Printf("newLine: %v \n", newLine)
+			match := isDatePrefix(newLine)
+			hasExp := false
 
 			for _, errTag := range errs {
 				// 含有异常关键字，发送提示告警
 				if strings.Contains(newLine, errTag) {
-					sendWxchatAlarm(strings.Join(userIds, "|"), convertAlarmMsg(errTag, newLine, file) )
-					log.Println("发送消息完毕")
+					//custErr = errTag
+					hasExp = true
+					break
+					//sendWxchatAlarm(strings.Join(userIds, "|"), convertAlarmMsg(errTag, newLine, file) )
+					//log.Println("发送消息完毕")
 				}
 			}
 
-			//log.Println("lines: ", newLine)
+
+			if hasExp && match {
+				errContentChan <- newLine + "\n"
+				//writing <- true
+			}
+
+			if hasExp && !match {
+				errContentChan <- newLine + "\n"
+				//writing <- true
+			}
+
+			if !hasExp && !match {
+				errContentChan <- newLine + "\n"
+				//writing <- true
+			}
+
+			//log.Println("lines--: ", newLine)
+
+			//for con := range errContentChan {
+			//	log.Println(con)
+			//}
 
 		}
 
-
 	}()
+
+	go func() {
+		var msg = ""
+		for{
+
+			select {
+
+				// channel超时
+				case <-time.After(3 * time.Second):
+					//log.Println("写入超时 ：", len(errContentChan))
+					//log.Println("异常堆栈：", msg)
+					custErrs := ""
+					hasCustErr := false
+					if "" != msg {
+						for _, errTag := range errs {
+							hasCustErr = true
+							custErrs += "," + errTag
+						}
+
+						if hasCustErr && "" != custErrs {
+							log.Printf("hasCustErr %v \n", hasCustErr)
+							go sendWxchatAlarm(strings.Join(userIds, "|"), convertAlarmMsg(custErrs, msg, file) )
+
+						}
+					}
+
+					// 置空
+					msg = ""
+					//done <- true
+				case content := <-errContentChan :
+					// 组装异常堆栈信息
+					msg += content
+
+
+			}
+
+
+		}
+	}()
+
 
 	err = command.Run()
 	if err != nil {
 		panic(err)
 	}
+	<-quit
+
 	return newLine
 }
