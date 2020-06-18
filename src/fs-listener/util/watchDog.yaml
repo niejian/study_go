@@ -1,5 +1,6 @@
 logPaths:
   - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+  - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
   - /Users/a/logs/arthas-cache/
 emails:
   - niejian@bluemoon.com.cn
@@ -8,4 +9,5 @@ userIds:
   - 80468295
 errs:
   - ArithmeticException
+  - IndexOutOfBoundsException
 enable: true

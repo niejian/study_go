@@ -151,10 +151,11 @@ func convertAlarmMsg(err, line, logFilePath string) string {
 	//}
 	ip := GetNetIp()
 	var buffer bytes.Buffer
-	buffer.WriteString("服务器IP：" + ip+ "<br/>")
+	buffer.WriteString("IP：" + ip+ "<br/>")
+	buffer.WriteString("时间：" + time.Now().Format("2006-01-02 15:04:05")+ "<br/>")
 	buffer.WriteString("日志：" + logFilePath + "<br/>")
-	buffer.WriteString("含有敏感异常：" + err + "<br/>")
-	buffer.WriteString("请查看详细异常堆栈信息<br/>" )
+	buffer.WriteString("敏感异常：" + err + "<br/>")
+	buffer.WriteString("堆栈信息<br/>" )
 	buffer.WriteString(line)
 
 	return buffer.String()
@@ -242,23 +243,25 @@ func readChangeContent(file string, errs ,emails, userIds []string) string{
 	go func() {
 		var msg = ""
 		for{
-
 			select {
-
-				// channel超时
-				case <-time.After(3 * time.Second):
+				// channel超时, 0.15秒未接收到写要求，直接发送错误信息
+				case <-time.After(150 * time.Millisecond):
 					//log.Println("写入超时 ：", len(errContentChan))
 					//log.Println("异常堆栈：", msg)
 					custErrs := ""
 					hasCustErr := false
 					if "" != msg {
+						// msg中可能含有多类异常信息，按照相关的规律分别发送这些异常信息
 						for _, errTag := range errs {
 							hasCustErr = true
-							custErrs += "," + errTag
+							if strings.Contains(msg, errTag) {
+								custErrs = errTag
+							}
 						}
 
 						if hasCustErr && "" != custErrs {
 							log.Printf("hasCustErr %v \n", hasCustErr)
+							strings.Split(msg, "20")
 							go sendWxchatAlarm(strings.Join(userIds, "|"), convertAlarmMsg(custErrs, msg, file) )
 
 						}
@@ -267,10 +270,9 @@ func readChangeContent(file string, errs ,emails, userIds []string) string{
 					// 置空
 					msg = ""
 					//done <- true
-				case content := <-errContentChan :
+				case content := <-errContentChan : // 阻塞，输出
 					// 组装异常堆栈信息
 					msg += content
-
 
 			}
 

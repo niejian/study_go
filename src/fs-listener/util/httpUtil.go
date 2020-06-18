@@ -3,7 +3,6 @@ package util
 import (
 	"bytes"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -60,7 +59,7 @@ func Post(url string, data interface{}, contentType string) string {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("  返回状态码：%v \n", response.Status)
+	//fmt.Printf("  返回状态码：%v \n", response.Status)
 	readBytes, err := ioutil.ReadAll(response.Body)
 	if err != nil {
 		panic(err)
