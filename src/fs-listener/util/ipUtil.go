@@ -7,10 +7,17 @@ import (
 
 // 获取Ip信息
 func GetNetIp()  string{
+
+	defer func() {
+		if r := recover();r!=nil{
+			log.Printf("get custom ip err: %v",r)
+		}
+	}()
+
 	addrs, err := net.InterfaceAddrs()
 	if err != nil {
 		log.Fatal("获取IP信息失败")
-		recover()
+		panic(err)
 	}
 
 	for _, address := range addrs {

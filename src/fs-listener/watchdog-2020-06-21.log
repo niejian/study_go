@@ -1,0 +1,591 @@
+2020/06/21 10:22:09 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/21 10:22:09 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:22:09 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/21 10:22:09 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/21 10:22:09 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/21 10:22:09 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/21 10:22:09 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/21 10:22:09 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/21 10:22:09 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/21 10:22:09 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/21 10:22:11 watchDogImpl.go:113: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:22:13 watchDogImpl.go:273: hasCustErr true 
+2020/06/21 10:22:13 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:22:37 watchDogImpl.go:273: hasCustErr true 
+2020/06/21 10:22:37 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:22:45 watchDogImpl.go:273: hasCustErr true 
+2020/06/21 10:22:46 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:32 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/21 10:35:32 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/21 10:35:32 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/21 10:35:32 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/21 10:35:32 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/21 10:35:32 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/21 10:35:32 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/21 10:35:32 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/21 10:35:32 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:32 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:33 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:33 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:33 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:33 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:35:33 watchDogImpl.go:266: 异常堆栈： at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:33 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/21 10:35:34 watchDogImpl.go:126: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:39 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:35:40 watchDogImpl.go:266: 异常堆栈： at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:24 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:24 watchDogImpl.go:266: 异常堆栈： at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:25 watchDogImpl.go:126: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:38 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： 2020-06-19 00:00:04.838 ERROR 27087 --- [nio-8081-exec-2] c.c.b.a.w.w.s.i.ShippingTaskServiceImpl  : 发货单20200610170131468617209销售订单无部分明细
+cn.com.bluemoon.admin.web.common.exception.NoBaseDataException: 销售订单无部分明细
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createShipLines(ShippingTaskServiceImpl.java:735)
+at cn.com.bluemoon.admin.web.writeoff.service.impl.ShippingTaskServiceImpl.createSaleShipping(ShippingTaskServiceImpl.java:418)
+at sun.reflect.GeneratedMethodAccessor1490.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:277: hasCustErr true 
+2020/06/21 10:36:38 watchDogImpl.go:266: 异常堆栈： at java.lang.reflect.Method.invoke(Method.java:498)
+
+2020/06/21 10:36:39 watchDogImpl.go:126: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:52 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/21 10:36:54 watchDogImpl.go:116: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log

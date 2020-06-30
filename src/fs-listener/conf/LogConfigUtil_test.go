@@ -24,6 +24,9 @@ func TestGetLogConf(t *testing.T) {
 		}
 
 		log.Printf("enable %v \n", conf.Enable)
+		log.Printf("EnableLogPattern %v \n", conf.EnableLogPattern)
+
+
 
 	})
 }

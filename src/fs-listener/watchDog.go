@@ -2,29 +2,29 @@ package main
 
 import (
 	"fmt"
-	"fs-listener/conf"
-	"fs-listener/util"
 	"log"
 	"os"
+	"strings"
 	"time"
+	"watchdog/conf"
+	"watchdog/util"
+
+	"github.com/patrickmn/go-cache"
 )
 
 func initLog() {
-	file := "./watchdog-" + time.Now().Format("2006-01-02") + ".log"
-
+	file := "./watchdog.log"
 
 	logFile, err := os.OpenFile(file, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0766)
 	if nil != err {
 		panic(err)
 	}
 
-
 	//创建一个Logger
 	//参数1：日志写入目的地
 	//参数2：每条日志的前缀
 	//参数3：日志属性
 	log.New(logFile, "前缀", log.Ldate|log.Ltime|log.Lshortfile)
-
 
 	//Flags返回Logger的输出选项
 	fmt.Println(log.Flags())
@@ -36,7 +36,6 @@ func initLog() {
 	fmt.Println(log.Prefix())
 
 }
-
 
 func main() {
 	initLog()
@@ -64,12 +63,49 @@ func main() {
 	if nil == userIds || len(userIds) == 0 {
 		userIds = []string{"80468295"}
 	}
+	enableLogPattern := logConf.EnableLogPattern // 监控文件名是否开启正则表达匹配模式
+	logDatePattern := logConf.LogDatePattern     // 监控日志文件的日期格式
+
 	done := make(chan bool)
+
 	for _, path := range paths {
-		// 获取配置信息
-		go util.GetFsChange(path, errs, emails, userIds)
+		log.Printf("enableLogPattern : %v,  logDatePattern: %v, path: %v\n", enableLogPattern, logDatePattern, path)
+		isContinue := false
+		// 带有日期的日志文件
+		if enableLogPattern && strings.Contains(path, util.DATE_TAG) && "" != logDatePattern {
+			var date = ""
+			// 读取日期格式配置
+			if strings.Contains(logDatePattern, "-") {
+				date = util.FormatDate("2006-01-02")
+			} else {
+				date = util.FormatDate("20060102")
+			}
+
+			path = strings.ReplaceAll(path, util.DATE_TAG, date)
+			isContinue = true
+		}
+
+		if !strings.Contains(path, util.DATE_TAG) {
+			isContinue = true
+		}
+
+		if isContinue {
+			exists, _ := util.PathExists(path)
+			if !exists {
+				log.Printf("文件 %v \n不存在", path)
+				continue
+			}
+		}
+
+		if isContinue {
+			log.Printf("监控文件-->：%v,  \n", path)
+			// 过期时间30s， 每隔20秒清除过期的key
+			c := cache.New(30*time.Second, 20*time.Second)
+
+			go util.GetFsChange(path, errs, emails, userIds, c)
+		}
+
 	}
+	
 	<-done
 }
-
-

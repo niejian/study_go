@@ -1,13 +1,24 @@
+# 监控的日志文件路径, 只需要关注那些实时在变化的日志文件，归档日志不需关注
 logPaths:
-  - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
-  - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
-  - /Users/a/logs/arthas-cache/
+  #  每天日志输出在xxxx-now.Format(yyyy-mm-dd).log 文件上
+#  # demo-muti-registry-producer-2020-06-19.log, demo-muti-registry-producer-20200619.log
+#  - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+#  - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+#  - /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+#  - /Users/a/logs/arthas-cache/
+   - /Users/a/logs/demo-muti-registry-producer/
+#  - C:/logs/
+
+# 监控的日志文件是否带有日期字样
+#enableLogPattern: true
+#logDatePattern: YYYY-MM-dd # 日志文件日期格式，默认(支持两种格式：YYYY-MM-dd， YYYYMMdd)
 emails:
   - niejian@bluemoon.com.cn
   - 393357255@qq.com
 userIds:
   - 80468295
 errs:
+  - Exception
   - ArithmeticException
   - IndexOutOfBoundsException
 enable: true

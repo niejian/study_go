@@ -1,0 +1,322 @@
+3
+
+2020/06/24 09:01:02 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8081/logs/
+2020/06/24 09:01:02 watchDog.go:95: 文件 /data/server/website/node_8081/logs/ 
+不存在
+2020/06/24 09:01:02 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8082/logs/
+2020/06/24 09:01:02 watchDog.go:95: 文件 /data/server/website/node_8082/logs/ 
+不存在
+2020/06/24 09:01:02 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8083/logs/
+2020/06/24 09:01:02 watchDog.go:95: 文件 /data/server/website/node_8083/logs/ 
+不存在
+2020/06/24 09:01:02 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8084/logs/
+2020/06/24 09:01:02 watchDog.go:95: 文件 /data/server/website/node_8084/logs/ 
+不存在
+2020/06/24 09:01:02 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8085/logs/
+2020/06/24 09:01:02 watchDog.go:95: 文件 /data/server/website/node_8085/logs/ 
+不存在
+2020/06/24 09:01:02 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /Users/a/logs/demo-muti-registry-producer/
+2020/06/24 09:01:02 watchDog.go:101: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/,  
+2020/06/24 09:01:02 watchDogImplV2.go:83: 日志文件：/Users/a/logs/demo-muti-registry-producer/ 
+2020/06/30 09:56:37 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8081/logs/
+2020/06/30 09:56:37 watchDog.go:95: 文件 /data/server/website/node_8081/logs/ 
+不存在
+2020/06/30 09:56:37 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8082/logs/
+2020/06/30 09:56:37 watchDog.go:95: 文件 /data/server/website/node_8082/logs/ 
+不存在
+2020/06/30 09:56:37 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8083/logs/
+2020/06/30 09:56:37 watchDog.go:95: 文件 /data/server/website/node_8083/logs/ 
+不存在
+2020/06/30 09:56:37 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8084/logs/
+2020/06/30 09:56:37 watchDog.go:95: 文件 /data/server/website/node_8084/logs/ 
+不存在
+2020/06/30 09:56:37 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8085/logs/
+2020/06/30 09:56:37 watchDog.go:95: 文件 /data/server/website/node_8085/logs/ 
+不存在
+2020/06/30 09:56:37 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /Users/a/logs/demo-muti-registry-producer/
+2020/06/30 09:56:37 watchDog.go:101: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/,  
+2020/06/30 09:56:37 watchDogImplV2.go:84: 日志文件：/Users/a/logs/demo-muti-registry-producer/ 
+2020/06/30 09:56:53 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:56:54 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:56:55 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:56:55 watchDogImplV2.go:220: 已发送消息 7f928efead424be24247aaed4556add6 
+2020/06/30 09:56:55 watchDogImplV2.go:220: 已发送消息 7f928efead424be24247aaed4556add6 
+2020/06/30 09:56:55 watchDogImplV2.go:220: 已发送消息 7f928efead424be24247aaed4556add6 
+2020/06/30 09:56:55 watchDogImplV2.go:220: 已发送消息 7f928efead424be24247aaed4556add6 
+2020/06/30 09:56:55 watchDogImplV2.go:220: 已发送消息 7f928efead424be24247aaed4556add6 
+2020/06/30 09:56:55 watchDogImplV2.go:220: 已发送消息 7f928efead424be24247aaed4556add6 
+2020/06/30 09:56:55 watchDogImplV2.go:220: 已发送消息 7f928efead424be24247aaed4556add6 
+2020/06/30 09:56:55 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482215307,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:56:56 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:56:57 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:56:57 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:56:57 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482218070,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:56:58 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:56:58 watchDogImplV2.go:220: 已发送消息 060deac9e59bc6434a403952d83c9449 
+2020/06/30 09:56:58 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482218059,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:56:58 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:56:59 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:56:59 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:56:59 watchDogImplV2.go:220: 已发送消息 87af217e883840d6d0da7949068aa1fa 
+2020/06/30 09:56:59 watchDogImplV2.go:220: 已发送消息 87af217e883840d6d0da7949068aa1fa 
+2020/06/30 09:56:59 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482219980,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:56:59 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:57:00 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:57:00 watchDogImplV2.go:220: 已发送消息 060af269199e3d708c37b47c07cc9315 
+2020/06/30 09:57:00 watchDogImplV2.go:220: 已发送消息 060af269199e3d708c37b47c07cc9315 
+2020/06/30 09:57:00 watchDogImplV2.go:220: 已发送消息 060af269199e3d708c37b47c07cc9315 
+2020/06/30 09:57:00 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482220310,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:57:01 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:57:01 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:57:01 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:57:01 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:57:01 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482222240,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:57:01 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482221832,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:57:33 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8081/logs/
+2020/06/30 09:57:33 watchDog.go:95: 文件 /data/server/website/node_8081/logs/ 
+不存在
+2020/06/30 09:57:33 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8082/logs/
+2020/06/30 09:57:33 watchDog.go:95: 文件 /data/server/website/node_8082/logs/ 
+不存在
+2020/06/30 09:57:33 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8083/logs/
+2020/06/30 09:57:33 watchDog.go:95: 文件 /data/server/website/node_8083/logs/ 
+不存在
+2020/06/30 09:57:33 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8084/logs/
+2020/06/30 09:57:33 watchDog.go:95: 文件 /data/server/website/node_8084/logs/ 
+不存在
+2020/06/30 09:57:33 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8085/logs/
+2020/06/30 09:57:33 watchDog.go:95: 文件 /data/server/website/node_8085/logs/ 
+不存在
+2020/06/30 09:57:33 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /Users/a/logs/demo-muti-registry-producer/
+2020/06/30 09:57:33 watchDog.go:101: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/,  
+2020/06/30 09:57:33 watchDogImplV2.go:84: 日志文件：/Users/a/logs/demo-muti-registry-producer/ 
+2020/06/30 09:57:36 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:57:41 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:57:41 watchDogImplV2.go:220: 已发送消息 3b0734855360098d03692a729559c361 
+2020/06/30 09:57:41 watchDogImplV2.go:220: 已发送消息 3b0734855360098d03692a729559c361 
+2020/06/30 09:57:41 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:57:41 watchDogImplV2.go:220: 已发送消息 3b0734855360098d03692a729559c361 
+2020/06/30 09:57:41 watchDogImplV2.go:220: 已发送消息 3b0734855360098d03692a729559c361 
+2020/06/30 09:57:41 watchDogImplV2.go:220: 已发送消息 3b0734855360098d03692a729559c361 
+2020/06/30 09:57:41 watchDogImplV2.go:220: 已发送消息 3b0734855360098d03692a729559c361 
+2020/06/30 09:57:41 watchDogImplV2.go:220: 已发送消息 3b0734855360098d03692a729559c361 
+2020/06/30 09:57:41 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482262343,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:57:53 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8081/logs/
+2020/06/30 09:57:53 watchDog.go:95: 文件 /data/server/website/node_8081/logs/ 
+不存在
+2020/06/30 09:57:53 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8082/logs/
+2020/06/30 09:57:53 watchDog.go:95: 文件 /data/server/website/node_8082/logs/ 
+不存在
+2020/06/30 09:57:53 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8083/logs/
+2020/06/30 09:57:53 watchDog.go:95: 文件 /data/server/website/node_8083/logs/ 
+不存在
+2020/06/30 09:57:53 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8084/logs/
+2020/06/30 09:57:53 watchDog.go:95: 文件 /data/server/website/node_8084/logs/ 
+不存在
+2020/06/30 09:57:53 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8085/logs/
+2020/06/30 09:57:53 watchDog.go:95: 文件 /data/server/website/node_8085/logs/ 
+不存在
+2020/06/30 09:57:53 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /Users/a/logs/demo-muti-registry-producer/
+2020/06/30 09:57:53 watchDog.go:101: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/,  
+2020/06/30 09:57:53 watchDogImplV2.go:84: 日志文件：/Users/a/logs/demo-muti-registry-producer/ 
+2020/06/30 09:57:56 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:07 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8081/logs/
+2020/06/30 09:58:07 watchDog.go:95: 文件 /data/server/website/node_8081/logs/ 
+不存在
+2020/06/30 09:58:07 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8082/logs/
+2020/06/30 09:58:07 watchDog.go:95: 文件 /data/server/website/node_8082/logs/ 
+不存在
+2020/06/30 09:58:07 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8083/logs/
+2020/06/30 09:58:07 watchDog.go:95: 文件 /data/server/website/node_8083/logs/ 
+不存在
+2020/06/30 09:58:07 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8084/logs/
+2020/06/30 09:58:07 watchDog.go:95: 文件 /data/server/website/node_8084/logs/ 
+不存在
+2020/06/30 09:58:07 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8085/logs/
+2020/06/30 09:58:07 watchDog.go:95: 文件 /data/server/website/node_8085/logs/ 
+不存在
+2020/06/30 09:58:07 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /Users/a/logs/demo-muti-registry-producer/
+2020/06/30 09:58:07 watchDog.go:101: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/,  
+2020/06/30 09:58:07 watchDogImplV2.go:84: 日志文件：/Users/a/logs/demo-muti-registry-producer/ 
+2020/06/30 09:58:11 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:13 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:13 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:13 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482294254,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:13 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:14 watchDogImplV2.go:220: 已发送消息 da34c5d922074d2d04fb303cf804e8bd 
+2020/06/30 09:58:14 watchDogImplV2.go:220: 已发送消息 da34c5d922074d2d04fb303cf804e8bd 
+2020/06/30 09:58:14 watchDogImplV2.go:220: 已发送消息 da34c5d922074d2d04fb303cf804e8bd 
+2020/06/30 09:58:14 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:14 watchDogImplV2.go:220: 已发送消息 da34c5d922074d2d04fb303cf804e8bd 
+2020/06/30 09:58:14 watchDogImplV2.go:220: 已发送消息 da34c5d922074d2d04fb303cf804e8bd 
+2020/06/30 09:58:14 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482294577,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:14 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:15 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:15 watchDogImplV2.go:220: 已发送消息 32741fc1fa05e284b42ffeed4024ade6 
+2020/06/30 09:58:15 watchDogImplV2.go:220: 已发送消息 32741fc1fa05e284b42ffeed4024ade6 
+2020/06/30 09:58:15 watchDogImplV2.go:220: 已发送消息 32741fc1fa05e284b42ffeed4024ade6 
+2020/06/30 09:58:15 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482296001,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:15 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:16 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:16 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:16 watchDogImplV2.go:220: 已发送消息 f161fb153a3a8dced49644d77737cacc 
+2020/06/30 09:58:16 watchDogImplV2.go:220: 已发送消息 f161fb153a3a8dced49644d77737cacc 
+2020/06/30 09:58:16 watchDogImplV2.go:220: 已发送消息 f161fb153a3a8dced49644d77737cacc 
+2020/06/30 09:58:16 watchDogImplV2.go:220: 已发送消息 f161fb153a3a8dced49644d77737cacc 
+2020/06/30 09:58:16 watchDogImplV2.go:220: 已发送消息 f161fb153a3a8dced49644d77737cacc 
+2020/06/30 09:58:16 watchDogImplV2.go:220: 已发送消息 f161fb153a3a8dced49644d77737cacc 
+2020/06/30 09:58:16 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:16 watchDogImplV2.go:220: 已发送消息 8c6e7c4504934dd382f133b602568ed0 
+2020/06/30 09:58:16 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482296588,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:16 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482297008,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:17 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:17 watchDogImplV2.go:220: 已发送消息 5c9648a9f39b8a0a26d9026d200186f1 
+2020/06/30 09:58:17 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:17 watchDogImplV2.go:220: 已发送消息 5c9648a9f39b8a0a26d9026d200186f1 
+2020/06/30 09:58:17 watchDogImplV2.go:220: 已发送消息 5c9648a9f39b8a0a26d9026d200186f1 
+2020/06/30 09:58:17 watchDogImplV2.go:220: 已发送消息 5c9648a9f39b8a0a26d9026d200186f1 
+2020/06/30 09:58:17 watchDogImplV2.go:220: 已发送消息 5c9648a9f39b8a0a26d9026d200186f1 
+2020/06/30 09:58:17 watchDogImplV2.go:220: 已发送消息 5c9648a9f39b8a0a26d9026d200186f1 
+2020/06/30 09:58:17 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482297845,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:17 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:18 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:18 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:18 watchDogImplV2.go:220: 已发送消息 fa191b002585831687434219b67760f6 
+2020/06/30 09:58:18 watchDogImplV2.go:220: 已发送消息 fa191b002585831687434219b67760f6 
+2020/06/30 09:58:18 watchDogImplV2.go:220: 已发送消息 fa191b002585831687434219b67760f6 
+2020/06/30 09:58:18 watchDogImplV2.go:220: 已发送消息 fa191b002585831687434219b67760f6 
+2020/06/30 09:58:18 watchDogImplV2.go:220: 已发送消息 fa191b002585831687434219b67760f6 
+2020/06/30 09:58:18 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482299016,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:19 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:19 watchDogImplV2.go:220: 已发送消息 bf73e108f20198a6090d2c0ba86dcdcd 
+2020/06/30 09:58:19 watchDogImplV2.go:220: 已发送消息 bf73e108f20198a6090d2c0ba86dcdcd 
+2020/06/30 09:58:19 watchDogImplV2.go:220: 已发送消息 bf73e108f20198a6090d2c0ba86dcdcd 
+2020/06/30 09:58:19 watchDogImplV2.go:220: 已发送消息 bf73e108f20198a6090d2c0ba86dcdcd 
+2020/06/30 09:58:19 watchDogImplV2.go:220: 已发送消息 bf73e108f20198a6090d2c0ba86dcdcd 
+2020/06/30 09:58:19 watchDogImplV2.go:220: 已发送消息 bf73e108f20198a6090d2c0ba86dcdcd 
+2020/06/30 09:58:19 watchDogImplV2.go:220: 已发送消息 bf73e108f20198a6090d2c0ba86dcdcd 
+2020/06/30 09:58:19 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:19 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482299602,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:20 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:21 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:220: 已发送消息 e58dbc6674a5c618507a87a53efc4b7e 
+2020/06/30 09:58:21 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482301523,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:21 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:22 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:220: 已发送消息 019a1a39d39cb2945a70332d781c6a1a 
+2020/06/30 09:58:22 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482302113,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:22 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482302541,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:23 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:23 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:23 watchDogImplV2.go:220: 已发送消息 1dc46ae9d92a0843ec07978d31092abc 
+2020/06/30 09:58:23 watchDogImplV2.go:220: 已发送消息 1dc46ae9d92a0843ec07978d31092abc 
+2020/06/30 09:58:23 watchDogImplV2.go:220: 已发送消息 1dc46ae9d92a0843ec07978d31092abc 
+2020/06/30 09:58:23 watchDogImplV2.go:220: 已发送消息 1dc46ae9d92a0843ec07978d31092abc 
+2020/06/30 09:58:23 watchDogImplV2.go:220: 已发送消息 1dc46ae9d92a0843ec07978d31092abc 
+2020/06/30 09:58:23 watchDogImplV2.go:220: 已发送消息 1dc46ae9d92a0843ec07978d31092abc 
+2020/06/30 09:58:23 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482303612,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:23 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:24 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:24 watchDogImplV2.go:220: 已发送消息 919ecef9f9cfcafc1520d99401c2220a 
+2020/06/30 09:58:24 watchDogImplV2.go:220: 已发送消息 919ecef9f9cfcafc1520d99401c2220a 
+2020/06/30 09:58:24 watchDogImplV2.go:220: 已发送消息 919ecef9f9cfcafc1520d99401c2220a 
+2020/06/30 09:58:24 watchDogImplV2.go:220: 已发送消息 919ecef9f9cfcafc1520d99401c2220a 
+2020/06/30 09:58:24 watchDogImplV2.go:220: 已发送消息 919ecef9f9cfcafc1520d99401c2220a 
+2020/06/30 09:58:24 watchDogImplV2.go:220: 已发送消息 919ecef9f9cfcafc1520d99401c2220a 
+2020/06/30 09:58:24 watchDogImplV2.go:220: 已发送消息 919ecef9f9cfcafc1520d99401c2220a 
+2020/06/30 09:58:24 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482304803,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:24 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:25 watchDogImplV2.go:127: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/30 09:58:25 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:25 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 72d32358945f3ffd66801b0356447a67 
+2020/06/30 09:58:25 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482305130,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:25 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482305551,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 09:58:25 watchDogImplV2.go:217: 发送消息: 80468295|80486943
+2020/06/30 09:58:25 watchDogImplV2.go:220: 已发送消息 5925c9939b63f9d72281a70aa02161fc 
+2020/06/30 09:58:25 watchDogImplV2.go:50: 发送微信消息结果： {"timestamp":1593482305632,"status":404,"error":"Not Found","message":"No message available","path":"/qyweixin/msg-push/push-msg1"}
+2020/06/30 10:52:05 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8081/logs/
+2020/06/30 10:52:05 watchDog.go:95: 文件 /data/server/website/node_8081/logs/ 
+不存在
+2020/06/30 10:52:05 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8082/logs/
+2020/06/30 10:52:05 watchDog.go:95: 文件 /data/server/website/node_8082/logs/ 
+不存在
+2020/06/30 10:52:05 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8083/logs/
+2020/06/30 10:52:05 watchDog.go:95: 文件 /data/server/website/node_8083/logs/ 
+不存在
+2020/06/30 10:52:05 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8084/logs/
+2020/06/30 10:52:05 watchDog.go:95: 文件 /data/server/website/node_8084/logs/ 
+不存在
+2020/06/30 10:52:05 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /data/server/website/node_8085/logs/
+2020/06/30 10:52:05 watchDog.go:95: 文件 /data/server/website/node_8085/logs/ 
+不存在
+2020/06/30 10:52:05 watchDog.go:72: enableLogPattern : false,  logDatePattern: , path: /Users/a/logs/demo-muti-registry-producer/
+2020/06/30 10:52:05 watchDog.go:101: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/,  
+2020/06/30 10:52:05 watchDogImplV2.go:85: 日志文件：/Users/a/logs/demo-muti-registry-producer/ 

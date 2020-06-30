@@ -7,7 +7,7 @@ import (
 )
 
 // 获取配置信息
-func GetLogConf()  *LogConf{
+func GetLogConf()  *LogConf {
 	conf := &LogConf{}
 	file, err := ioutil.ReadFile("watchDog.yaml")
 	if err != nil {
@@ -17,9 +17,11 @@ func GetLogConf()  *LogConf{
 			UserIds:  []string{},
 			Errs:     []string{},
 			Enable:   false,
+			EnableLogPattern: false,
+			LogDatePattern: "YYYY-MM-DD",
 		}
 		// 未找到文件
-		log.Println(err)
+		log.Println("读取yaml失败", err)
 	}
 
 	err = yaml.Unmarshal(file, conf)

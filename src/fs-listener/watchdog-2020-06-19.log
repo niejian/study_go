@@ -1,0 +1,443 @@
+2020/06/19 09:43:49 watchDogImpl.go:73: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 09:43:49 watchDogImpl.go:73: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 09:43:49 watchDogImpl.go:73: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 09:43:59 watchDogImpl.go:119: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 09:43:59 watchDogImpl.go:109: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 09:43:59 watchDogImpl.go:263: hasCustErr true 
+2020/06/19 09:44:00 watchDogImpl.go:42: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:52:45 watchDog.go:75: enableLogPattern : true,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 10:52:45 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-2020-06-19.log,  
+2020/06/19 10:52:45 watchDog.go:75: enableLogPattern : true,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 10:52:45 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 10:52:45 watchDog.go:75: enableLogPattern : true,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 10:52:45 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 10:52:45 watchDog.go:75: enableLogPattern : true,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 10:52:45 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 10:52:45 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 10:52:45 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-2020-06-19.log 
+2020/06/19 10:52:45 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 10:52:45 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 10:52:49 watchDogImpl.go:111: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 10:52:50 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:52:50 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:52:54 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:52:54 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:52:57 watchDogImpl.go:121: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 10:52:57 watchDogImpl.go:111: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 10:52:57 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:52:58 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:53:01 watchDogImpl.go:121: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-2020-06-19.log
+2020/06/19 10:53:01 watchDogImpl.go:111: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-2020-06-19.log
+2020/06/19 10:53:01 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:53:02 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:53:21 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 10:53:21 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 10:53:21 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 10:53:21 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 10:53:21 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 10:53:21 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 10:53:21 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 10:53:21 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 10:53:21 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 10:53:21 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 10:53:31 watchDogImpl.go:121: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 10:53:31 watchDogImpl.go:111: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 10:53:31 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:53:32 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:53:33 watchDogImpl.go:111: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 10:53:38 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:53:38 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:53:45 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:53:45 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 10:53:49 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 10:53:49 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 11:27:45 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 11:27:45 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 11:27:45 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 11:27:45 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 11:27:45 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 11:27:45 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 11:27:45 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 11:27:45 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 11:27:45 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 11:27:45 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 11:28:13 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 11:28:13 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 11:28:13 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 11:28:13 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 11:28:13 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 11:28:13 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 11:28:13 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 11:28:13 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 11:28:13 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 11:28:13 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 11:33:34 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 11:33:34 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 11:33:34 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 11:33:34 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 11:33:34 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 11:33:34 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 11:33:34 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 11:33:34 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 11:33:34 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 11:33:34 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 11:51:03 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 11:51:03 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 11:51:03 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 11:51:03 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 11:51:03 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 11:51:03 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 11:51:03 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 11:51:03 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 11:51:03 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 11:51:03 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 11:51:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 11:51:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 11:51:48 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 11:51:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 11:51:48 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 11:51:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 11:51:48 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 11:51:48 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 11:51:48 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 11:51:48 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 11:53:30 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 11:53:30 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 11:53:30 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 11:53:30 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 11:53:30 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 11:53:30 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 11:53:30 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 11:53:30 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 11:53:30 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 11:53:30 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 11:54:40 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 11:54:40 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 11:54:40 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 11:54:40 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 11:54:40 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 11:54:40 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 11:54:40 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 11:54:40 watchDogImpl.go:74: filePath: /Users/a/logs/arthas-cache/ 
+2020/06/19 11:54:40 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 11:54:40 watchDogImpl.go:74: filePath: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 13:36:19 watchDogImpl.go:111: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 13:36:31 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:36:32 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:41:31 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:41:31 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:46:45 watchDogImpl.go:121: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 13:46:45 watchDogImpl.go:111: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 13:46:45 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:46:45 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:48:50 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:48:50 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:48:56 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:48:56 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:50:43 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:50:44 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:52:31 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:52:31 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:52:35 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:52:35 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:52:40 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:52:40 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:52:46 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:52:46 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 13:53:16 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 13:53:16 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 14:02:47 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 14:02:47 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 14:03:35 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 14:03:35 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 14:03:44 watchDogImpl.go:269: hasCustErr true 
+2020/06/19 14:03:44 watchDogImpl.go:43: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 15:03:12 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 15:03:12 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:03:12 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 15:03:12 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 15:03:12 watchDog.go:97: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 15:03:12 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 15:03:12 watchDog.go:97: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 15:03:12 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 15:03:12 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 15:03:12 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 15:03:12 watchDogImpl.go:97: err===>:lstat /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log: no such file or directory
+2020/06/19 15:04:37 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 15:04:37 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:04:37 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 15:04:37 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 15:04:37 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 15:04:37 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 15:04:37 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 15:04:37 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 15:04:37 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 15:04:37 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 15:07:11 watchDogImpl.go:123: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:07:11 watchDogImpl.go:113: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:07:50 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 15:07:50 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:07:50 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 15:07:50 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 15:07:50 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 15:07:50 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 15:07:50 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 15:07:50 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 15:07:50 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 15:07:50 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 15:07:57 watchDogImpl.go:123: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:07:57 watchDogImpl.go:113: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:08:23 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 15:08:23 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 15:08:30 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 15:08:30 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 15:11:03 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 15:11:03 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 15:22:05 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 15:22:05 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:22:05 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 15:22:05 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 15:22:05 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 15:22:05 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 15:22:05 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 15:22:05 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 15:22:05 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 15:22:05 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 15:22:56 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 15:22:56 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:22:56 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 15:22:56 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 15:22:56 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 15:22:56 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 15:22:56 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 15:22:56 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 15:22:56 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 15:22:56 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 15:23:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 15:23:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 15:23:06 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 15:23:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 15:23:06 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 15:23:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 15:23:06 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 15:23:06 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 15:23:06 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 15:23:06 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:00:22 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:00:22 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:00:22 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:00:22 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:00:22 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:00:22 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:00:22 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:00:22 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:00:22 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:00:22 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:22:16 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:22:16 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:22:16 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:22:16 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:22:16 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:22:16 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:22:16 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:22:16 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:22:16 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:22:16 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:39:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:39:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:39:48 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:39:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:39:48 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:39:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:39:48 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:39:48 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:39:48 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:39:48 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:40:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:40:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:40:26 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:40:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:40:26 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:40:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:40:26 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:40:26 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:40:26 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:40:26 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:40:54 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:40:54 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:40:54 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:40:54 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:40:54 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:40:54 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:40:54 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:40:54 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:40:54 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:40:54 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:41:24 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:41:24 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:41:24 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:41:24 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:41:24 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:41:24 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:41:24 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:41:24 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:41:24 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:41:24 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:47:41 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:47:41 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:47:41 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:47:41 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:47:41 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:47:41 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:47:41 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:47:41 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:47:41 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:47:41 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:47:46 watchDogImpl.go:123: 修改权限 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:47:46 watchDogImpl.go:113: 写入文件 :  /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:47:52 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:47:52 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:47:55 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:47:55 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:48:09 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:48:10 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:48:53 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:48:53 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:48:55 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:48:55 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:48:58 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:48:58 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:48:59 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:48:59 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:49:00 watchDogImpl.go:273: hasCustErr true 
+2020/06/19 16:49:01 watchDogImpl.go:44: 发送微信消息结果： {"errcode":0,"errmsg":"ok","invaliduser":""}
+2020/06/19 16:57:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:57:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:57:48 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:57:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:57:48 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:57:48 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:57:48 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:57:48 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:57:48 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:57:48 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 16:58:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 16:58:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 16:58:27 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 16:58:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 16:58:27 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 16:58:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 16:58:27 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 16:58:27 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 16:58:27 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 16:58:27 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:04:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:04:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:04:27 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:04:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:04:27 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:04:27 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:04:27 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:04:27 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:04:27 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:04:27 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:04:49 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:04:49 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:04:49 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:04:49 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:04:49 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:04:49 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:04:49 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:04:49 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:04:49 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:04:49 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:05:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:05:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:05:26 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:05:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:05:26 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:05:26 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:05:26 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:05:26 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:05:26 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:05:26 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:06:01 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:06:01 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:06:01 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:06:01 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:06:01 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:06:01 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:06:01 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:06:01 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:06:01 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:06:01 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:06:11 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:06:11 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:06:11 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:06:11 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:06:11 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:06:11 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:06:11 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:06:11 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:06:11 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:06:11 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:07:02 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:07:02 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:07:02 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:07:02 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:07:02 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:07:02 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:07:02 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:07:02 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:07:02 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:07:02 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:07:25 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:07:25 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:07:25 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:07:25 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:07:25 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:07:25 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:07:25 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:07:25 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:07:25 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:07:25 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:08:31 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:08:31 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:08:31 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:08:31 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:08:31 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:08:31 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:08:31 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:08:31 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:08:31 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:08:31 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:09:19 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:09:19 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:09:19 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:09:19 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:09:19 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:09:19 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:09:19 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:09:19 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:09:19 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:09:19 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:10:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:10:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:10:06 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:10:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:10:06 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:10:06 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:10:06 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:10:06 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 
+2020/06/19 17:10:06 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:10:06 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:10:23 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer-$DATE$.log
+2020/06/19 17:10:23 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log
+2020/06/19 17:10:23 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log,  
+2020/06/19 17:10:23 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log
+2020/06/19 17:10:23 watchDog.go:105: 监控文件-->：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log,  
+2020/06/19 17:10:23 watchDog.go:75: enableLogPattern : false,  logDatePattern: YYYY-MM-dd, path: /Users/a/logs/arthas-cache/
+2020/06/19 17:10:23 watchDog.go:105: 监控文件-->：/Users/a/logs/arthas-cache/,  
+2020/06/19 17:10:23 watchDogImpl.go:76: 日志文件：/Users/a/logs/arthas-cache/ 
+2020/06/19 17:10:23 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer.log 
+2020/06/19 17:10:23 watchDogImpl.go:76: 日志文件：/Users/a/logs/demo-muti-registry-producer/demo-muti-registry-producer_log_error.log 

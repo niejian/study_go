@@ -1,8 +1,8 @@
 package util
 
 import (
-	"fs-listener/conf"
 	"testing"
+	"watchdog/conf"
 )
 
 const (
