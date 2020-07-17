@@ -113,7 +113,6 @@ func printMethod(x interface{})  {
 }
 
 
-
 func main()  {
 	a := 2.13
 	b := make([]int, 10)
