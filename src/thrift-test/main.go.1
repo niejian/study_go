@@ -1,0 +1,230 @@
+package main
+
+import (
+	"context"
+	"fmt"
+	"github.com/apache/thrift/lib/go/thrift"
+	"net"
+	"os"
+	"thrift-test/person"
+	"time"
+)
+
+
+func main() {
+	//savePerson()
+	//getPersonByUsername()
+	/*
+	thrift.NewTBufferedTransportFactory(8192)
+	//protocolFactory := thrift.NewTCompactProtocolFactory()
+	var transport thrift.TTransport
+
+
+	//transport, err := thrift.NewTSocketTimeout(net.JoinHostPort("127.0.0.1", "8800"), 30 * time.Second)
+	socket, err := thrift.NewTSocket(net.JoinHostPort("127.0.0.1", "8800"))
+	socket.SetTimeout(30 * time.Second)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "error resolving address:", err)
+		os.Exit(1)
+	}
+
+	//thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+	// 传输方式
+	transportFactory := thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+
+	transport, err = transportFactory.GetTransport(socket)
+
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "get transport error: ", err)
+		os.Exit(1)
+	}
+	// 传输协议
+	protocol := thrift.NewTBinaryProtocolTransport(transport)
+	if err := transport.Open(); err != nil {
+		fmt.Fprintln(os.Stderr, "open transport error: ", err)
+		os.Exit(1)
+	}
+	defer socket.Close()
+	// 客户端 (serviceName要与服务提供者注册上的一致)
+	iprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	oprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	c := thrift.NewTStandardClient(iprot, oprot)
+
+	client := person.NewPersonServiceClient(c)
+
+	 */
+	client, socket := getPersonServiceClient()
+
+	if nil != socket {
+		 defer socket.Close()
+	}
+
+	// New服务名(首字母大写)Client
+	ctx := context.Background()
+	data, _ := client.GetPersonByUsername(ctx, "张三")
+	fmt.Printf("getUserByUsername: %v \n", data)
+
+	userName := "李四"
+	newUserName := &userName
+	var age int32 = 20
+	newAge := &age
+
+	married := false
+	newMarried := &married
+
+	newPerson := person.NewPerson()
+	newPerson.Username = newUserName
+	newPerson.Age = newAge
+	newPerson.Married = newMarried
+
+	client.SavePerson(ctx, newPerson)
+
+
+}
+
+func getPersonServiceClient() (*person.PersonServiceClient, *thrift.TSocket) {
+	thrift.NewTBufferedTransportFactory(8192)
+	//protocolFactory := thrift.NewTCompactProtocolFactory()
+	var transport thrift.TTransport
+
+
+	//transport, err := thrift.NewTSocketTimeout(net.JoinHostPort("127.0.0.1", "8800"), 30 * time.Second)
+	socket, err := thrift.NewTSocket(net.JoinHostPort("127.0.0.1", "8800"))
+	socket.SetTimeout(30 * time.Second)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "error resolving address:", err)
+		os.Exit(1)
+	}
+
+	//thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+	// 传输方式
+	transportFactory := thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+
+	transport, err = transportFactory.GetTransport(socket)
+
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "get transport error: ", err)
+		os.Exit(1)
+	}
+	// 传输协议
+	protocol := thrift.NewTBinaryProtocolTransport(transport)
+	if err := transport.Open(); err != nil {
+		fmt.Fprintln(os.Stderr, "open transport error: ", err)
+		os.Exit(1)
+	}
+	//defer socket.Close()
+	// 客户端 (serviceName要与服务提供者注册上的一致)
+	iprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	oprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	tStandardClient := thrift.NewTStandardClient(iprot, oprot)
+
+	client := person.NewPersonServiceClient(tStandardClient)
+
+	return client, socket
+}
+
+func savePerson() {
+
+	thrift.NewTBufferedTransportFactory(8192)
+	//protocolFactory := thrift.NewTCompactProtocolFactory()
+	var transport thrift.TTransport
+
+
+	//transport, err := thrift.NewTSocketTimeout(net.JoinHostPort("127.0.0.1", "8800"), 30 * time.Second)
+	socket, err := thrift.NewTSocket(net.JoinHostPort("127.0.0.1", "8800"))
+	socket.SetTimeout(30 * time.Second)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "error resolving address:", err)
+		os.Exit(1)
+	}
+
+	//thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+	// 传输方式
+	transportFactory := thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+
+	transport, err = transportFactory.GetTransport(socket)
+
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "get transport error: ", err)
+		os.Exit(1)
+	}
+	// 传输协议
+	protocol := thrift.NewTBinaryProtocolTransport(transport)
+	if err := transport.Open(); err != nil {
+		fmt.Fprintln(os.Stderr, "open transport error: ", err)
+		os.Exit(1)
+	}
+	defer socket.Close()
+	// 客户端 (serviceName要与服务提供者注册上的一致)
+	iprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	oprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	c := thrift.NewTStandardClient(iprot, oprot)
+
+	client := person.NewPersonServiceClient(c)
+
+	// New服务名(首字母大写)Client
+	ctx := context.Background()
+	userName := "李四"
+	newUserName := &userName
+	var age int32 = 20
+	newAge := &age
+
+	married := false
+	newMarried := &married
+
+	newPerson := person.NewPerson()
+	newPerson.Username = newUserName
+	newPerson.Age = newAge
+	newPerson.Married = newMarried
+
+	client.SavePerson(ctx, newPerson)
+
+
+}
+
+
+func getPersonByUsername() {
+
+	thrift.NewTBufferedTransportFactory(8192)
+	//protocolFactory := thrift.NewTCompactProtocolFactory()
+	var transport thrift.TTransport
+
+
+	//transport, err := thrift.NewTSocketTimeout(net.JoinHostPort("127.0.0.1", "8800"), 30 * time.Second)
+	socket, err := thrift.NewTSocket(net.JoinHostPort("127.0.0.1", "8800"))
+	socket.SetTimeout(30 * time.Second)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "error resolving address:", err)
+		os.Exit(1)
+	}
+
+	//thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+	// 传输方式
+	transportFactory := thrift.NewTFramedTransportFactory(thrift.NewTTransportFactory())
+
+	transport, err = transportFactory.GetTransport(socket)
+
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "get transport error: ", err)
+		os.Exit(1)
+	}
+	// 传输协议
+	protocol := thrift.NewTBinaryProtocolTransport(transport)
+	if err := transport.Open(); err != nil {
+		fmt.Fprintln(os.Stderr, "open transport error: ", err)
+		os.Exit(1)
+	}
+	defer socket.Close()
+	// 客户端 (serviceName要与服务提供者注册上的一致)
+	iprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	oprot := thrift.NewTMultiplexedProtocol(protocol, "personService")
+	c := thrift.NewTStandardClient(iprot, oprot)
+
+	client := person.NewPersonServiceClient(c)
+
+	// New服务名(首字母大写)Client
+	ctx := context.Background()
+	data, _ := client.GetPersonByUsername(ctx, "张三")
+	fmt.Printf("getUserByUsername: %v \n", data)
+
+}
